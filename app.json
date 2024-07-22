@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "offer-up-clone",
+    "name": "Offer Up CLone",
     "slug": "offer-up-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "offer-up-clone",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",

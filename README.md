@@ -1,6 +1,28 @@
-# Welcome to your Expo app 👋
+# React Native Offer Up
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a learning experience for becoming familiar with the latest version of React Native `6.0.2` and Expo `51.0.18`.
+This is a fullstack app where the backend is handled in the `server/` directory and requests are handled in `services/` directory.
+
+Use this as a reference for handling future React Native projects.
+
+Note:
+- As of Express 4.16.0, `body-parser` integrated into `express`
+- Attempt to run react native app and node server with concurrently did not work, must run separately
+
+## Features
+
+- **User Registration**: Allows new users to register with a username and password.
+- **User Login**: Authenticates users and returns a JWT token upon successful login.
+- **List of Offers**: Displays a list of offers on homepage.
+- **List Item**: Allows authorized users to create, and delete their item listing.
+
+## Technologies Used
+
+- **Node.js**: JavaScript runtime.
+- **Express.js**: Web framework for Node.js.
+- **JWT (jsonwebtoken)**: For creating and verifying tokens.
+- **bcryptjs**: For hashing passwords.
+- **dotenv**: For managing environment variables.
 
 ## Get started
 

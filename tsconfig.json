@@ -9,9 +9,13 @@
     }
   },
   "include": [
+    "./declarations.d.ts", 
+    "./app/**/*", 
+    "./assets/**/*", 
+    "./constants/**/*",
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "models"  ]
 }
